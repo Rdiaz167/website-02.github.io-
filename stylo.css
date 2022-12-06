@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+}
+
+main {
+    width: 1000px;
+    height: 100vh;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background: rgb(0, 0, 0);
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.one img {
+    position: relative;
+    left: 12px;
+    width: 76px;
+    height: 72px;
+}
+
+.enlaces ul li {
+    position: relative;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.enlaces ul li:first-child {
+    font-weight: 700;
+}
+
+.enlaces ul li:first-child:hover .flecha {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(82%) saturate(3643%) hue-rotate(264deg) brightness(103%) contrast(107%);
+}
+
+.prod {
+    position: relative;
+    top: -5px;
+}
+
+.enlaces ul li a {
+     color: #FFFFFF;
+}
+
+.enlaces ul li a:hover {
+    color: #F64DFE; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none; 
+}
+
+ul li {
+    margin: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.enlaces .flecha {
+    position: relative;
+    top: 4px;
+    width: 15px;
+    height: 17px;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+}
+
+.two nav {
+    position: relative;
+    right: 12px;
+}
+
+.two ul li {
+    margin: 20px;
+}
+
+.two ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* HOVER A UN SVG */
+/* HOVER A UN SVG */
+
+.icon:hover {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(82%) saturate(3643%) hue-rotate(264deg) brightness(103%) contrast(107%);
+}
+
+/* SECTION */
+/* SECTION */
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+section img {
+    width: 100%;
+    object-fit: none;
+}
+
+section p {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 141px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+/* MODAL */
+/* MODAL */
+
+.modal {
+    position: absolute;
+    top: 73px;
+    right: 429px;
+    width: 704px;
+    height: 521px;
+    background: #FFFFFF;
+}
+
+.triangulo {
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 8px solid #ffffff;
+}
+
+.modal h2 {
+    position: relative;
+    top: 13px;
+    left: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.containerItem {
+    position: relative;
+    top: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 96px;
+}
+
+/* ITEMS MODAL*/
+/* ITEMS MODAL*/
+
+.img-prod {
+    position: relative;
+    left: 32px;
+    width: 80px;
+    height: 80px;
+}
+
+.text-item {
+    position: relative;
+    left: 48px;
+    width: 239px;
+    height: 80px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-item p {
+    position: relative;
+    top: 5px;
+}
+
+.cantidad {
+    position: relative;
+    left: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.cantidad span:nth-child(1):hover {
+    color: #A623FD;
+}
+
+.cantidad span:nth-child(3):hover {
+    color: #A623FD;
+}
+
+.cantidad span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.cantidad span:hover {
+    border: 2px solid #A623FD;
+}
+
+.valor-item {
+    position: relative;
+    left: 115px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.valor-item-1 {
+    position: relative;
+    left:115px;
+    top: 9px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.valor-item-2 {
+    position: relative;
+    left:115px;
+    top: -7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.icon-cross {
+    position: absolute;
+    right: 32px;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+
+.icon-cross:hover {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(86%) saturate(7483%) hue-rotate(58deg) brightness(115%) contrast(96%);
+}
+
+.delivery {
+    position: relative;
+    left: 32px;
+    top: 62px;
+    display: flex;
+    align-items: center;
+    width: 309px;
+    height: 34px;
+}
+
+.delivery img {
+    width: 32px;
+    height: 32px;
+}
+
+.delivery p {
+    position: relative;
+    left: 17px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5B636A;
+}
+
+.delivery p strong {
+    color: #000000;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+    width: 161px;
+    height: 56px;
+    background:#A623FD;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+button p {
+    position: absolute;
+    left: 32px;
+}
+
+.icon-check {
+    position: absolute;
+    top: 21px;
+    right: 39px;
+    width: 13px;
+    height: 13px;
+    transform: rotate(270deg);
+}
+
+.btn-span {
+    position: absolute;
+    width: 57.07px;
+    height: 29.05px;
+    right: -19px;
+    top: 31px;
+    background: #F64DFE;
+    transform: rotate(134.28deg);
+}
